@@ -1,0 +1,46 @@
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Title
+st.title("Adaptive AI Talent Mapping Tool")
+
+# File uploader
+uploaded_file = st.file_uploader("Upload Employee Data (CSV)", type="csv")
+if uploaded_file:
+    data = pd.read_csv(uploaded_file)
+    st.write("### Employee Data Preview")
+    st.dataframe(data.head())
+
+    # KPI weights
+    st.write("### Adjust KPI Weights")
+    sales_weight = st.slider("Sales Revenue Weight", 0.0, 1.0, 0.5)
+    project_weight = st.slider("Project Success Rate Weight", 0.0, 1.0, 0.5)
+    
+    # Weighted potential (simplified adaptivity)
+    data['Weighted_Potential'] = (sales_weight * data['Sales_Revenue'] / max(data['Sales_Revenue']) + 
+                                 project_weight * data['Project_Success_Rate'] / 100) * 100
+
+    # Talent map
+    st.write("### Talent Map: Performance vs. Potential")
+    fig, ax = plt.subplots()
+    sns.scatterplot(x='Sales_Revenue', y='Weighted_Potential', hue='Department', size='Project_Success_Rate', data=data, ax=ax)
+    plt.xlabel('Sales Revenue ($)')
+    plt.ylabel('Weighted Potential Score')
+    st.pyplot(fig)
+
+    # Role recommendations
+    st.write("### Role Recommendations")
+    st.dataframe(data[['Employee_ID', 'Role', 'Recommended_Role', 'Aspiration']])
+
+    # Succession planning
+    st.write("### Succession Planning: Top Leadership Candidates")
+    top_candidates = data[data['Recommended_Role'].isin(['Manager', 'Director'])][['Employee_ID', 'Weighted_Potential', 'Department']].sort_values(by='Weighted_Potential', ascending=False).head(5)
+    st.dataframe(top_candidates)
+else:
+    st.write("Please upload a CSV file to begin.")
+
+# Display static talent map (from Colab)
+st.write("### Sample Talent Map (Generated from AI Model)")
+st.image('talent_map.png', caption="Sample 9-box grid showing performance vs. potential.")

@@ -1,0 +1,51 @@
+Employee_ID,Conscientiousness,Adaptability,Collaboration,Sales_Revenue,Project_Success_Rate,Role,Department,Aspiration,Potential,Recommended_Role
+1,85,80,90,100000,95,Sales Rep,Sales,Manager,88.13389154704944,Manager
+2,70,85,75,80000,85,Engineer,IT,Tech Lead,75.87244816586922,Tech Lead
+3,90,75,80,120000,90,Manager,Leadership,Director,92.65176103136629,Senior Analyst
+4,65,70,85,75000,80,Analyst,Analytics,Senior Analyst,70.80935672514619,Manager
+5,88,82,87,110000,92,Sales Rep,Sales,Manager,90.84047049441786,Manager
+6,78,88,70,90000,88,Engineer,IT,Tech Lead,79.56746411483253,Tech Lead
+7,92,78,85,130000,94,Manager,Leadership,Director,98.48270866560341,Senior Analyst
+8,60,65,80,70000,75,Analyst,Analytics,Senior Analyst,66.15574162679425,Manager
+9,87,84,89,105000,93,Sales Rep,Sales,Manager,89.07332868155238,Director
+10,72,90,72,82000,87,Engineer,IT,Tech Lead,77.49222488038278,Tech Lead
+11,89,76,83,125000,91,Manager,Leadership,Director,95.57601484772538,Manager
+12,68,68,78,72000,78,Analyst,Analytics,Senior Analyst,68.64948165869218,Manager
+13,84,81,91,102000,94,Sales Rep,Sales,Manager,88.16667331206804,Manager
+14,75,87,74,85000,86,Engineer,IT,Tech Lead,77.8627990430622,Tech Lead
+15,91,79,86,128000,93,Manager,Leadership,Director,97.41119085592769,Manager
+16,62,66,82,71000,76,Analyst,Analytics,Senior Analyst,66.69039074960128,Manager
+17,86,83,88,108000,95,Sales Rep,Sales,Manager,90.3753821105795,Director
+18,71,89,71,83000,88,Engineer,IT,Tech Lead,77.73979266347688,Tech Lead
+19,93,77,84,132000,92,Manager,Leadership,Director,98.08074162679425,Senior Analyst
+20,64,69,79,73000,77,Analyst,Analytics,Senior Analyst,68.14525518341308,Tech Lead
+21,83,80,90,101000,93,Sales Rep,Sales,Manager,87.8464845826688,Manager
+22,76,86,73,86000,87,Engineer,IT,Tech Lead,78.4769138755981,Tech Lead
+23,90,78,85,127000,94,Manager,Leadership,Director,97.75706880838459,Manager
+24,61,67,81,70000,75,Analyst,Analytics,Senior Analyst,66.0883971291866,Tech Lead
+25,85,82,89,106000,92,Sales Rep,Sales,Manager,88.75050837320575,Manager
+26,73,88,72,84000,89,Engineer,IT,Tech Lead,78.32555821371612,Tech Lead
+27,92,76,83,129000,91,Manager,Leadership,Director,96.82153110047847,Senior Analyst
+28,66,65,80,72000,78,Analyst,Analytics,Senior Analyst,68.31271929824561,Manager
+29,84,84,91,103000,94,Sales Rep,Sales,Manager,88.27828282828283,Director
+30,74,90,74,87000,86,Engineer,IT,Tech Lead,78.12344497607656,Tech Lead
+31,89,79,86,126000,93,Manager,Leadership,Director,96.69113978127135,Manager
+32,63,68,82,71000,76,Analyst,Analytics,Senior Analyst,66.88867623604466,Manager
+33,87,81,88,109000,95,Sales Rep,Sales,Manager,90.90966336295286,Manager
+34,72,87,71,85000,88,Engineer,IT,Tech Lead,78.20067783094098,Tech Lead
+35,91,77,84,131000,92,Manager,Leadership,Director,97.56026049973418,Senior Analyst
+36,65,66,79,73000,77,Analyst,Analytics,Senior Analyst,68.2244019138756,Manager
+37,86,83,90,104000,93,Sales Rep,Sales,Manager,88.12614633173843,Manager
+38,75,89,73,86000,89,Engineer,IT,Tech Lead,78.99708931419458,Tech Lead
+39,90,78,85,128000,94,Manager,Leadership,Director,97.75706880838459,Manager
+40,62,67,81,70000,75,Analyst,Analytics,Senior Analyst,66.12081339712918,Manager
+41,85,82,89,107000,92,Sales Rep,Sales,Manager,88.75050837320575,Manager
+42,74,88,72,84000,87,Engineer,IT,Tech Lead,77.93732057416268,Tech Lead
+43,93,76,83,130000,91,Manager,Leadership,Director,97.11654704944179,Senior Analyst
+44,64,65,80,72000,78,Analyst,Analytics,Senior Analyst,68.06893939393939,Manager
+45,84,84,91,102000,94,Sales Rep,Sales,Manager,88.27828282828283,Director
+46,73,90,74,87000,86,Engineer,IT,Tech Lead,77.9883572567783,Tech Lead
+47,92,79,86,127000,93,Manager,Leadership,Director,97.41371610845295,Manager
+48,61,68,82,71000,76,Analyst,Analytics,Senior Analyst,66.79437799043062,Tech Lead
+49,87,81,88,108000,95,Sales Rep,Sales,Manager,90.90966336295286,Manager
+50,76,87,71,85000,88,Engineer,IT,Tech Lead,78.47906698564593,Tech Lead
